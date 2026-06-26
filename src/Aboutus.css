@@ -1,0 +1,184 @@
+.about-section{
+     padding: 5rem 2rem;
+     background: white;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-container{
+    max-width: 1280px;
+    margin:0 auto;
+}
+
+
+.about-header{
+    align-items: center;
+    text-align: center;
+}
+
+.about-badge{
+    display: block;
+    background: rgba(30,111,159, 0.1);
+    color: #1e6f9f;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.4rem 1 rem;
+    border-radius: 40px;
+    margin-bottom: 1rem;
+
+}
+
+.about-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color:#1971c2;
+}
+
+.subtitle{
+    padding: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: #495057;
+}
+
+.abouttext >h3{
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.abouttext >p{
+    color: #4a627a;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    font-size: 1 rem;
+    letter-spacing: 2px;
+}
+
+.mission >h4{
+    
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.mission >p{
+    
+    color: #4a627a;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    font-size: 1 rem;
+    letter-spacing: 2px;
+}
+.vision h4{
+ 
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.vision p{
+    
+    color: #4a627a;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    font-size: 1 rem;
+    letter-spacing: 2px;
+}
+.about-image >img{
+    width: 100%;
+    border-radius: 28px;
+    transition: transform 0.3s;
+    cursor: pointer;
+
+}
+.stats-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    margin-bottom: 5rem;
+    padding: 2px;
+    border-radius: 40px;
+    background: #bac8ff;
+}
+
+.statcard{
+    text-align: center;
+}
+
+.statnumber{
+  font-size: 2.5rem; 
+  font-weight: 800; 
+  margin-bottom: 0.5rem;
+  padding-top: 12px;
+}
+
+.statlabel{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#212529;
+    padding: 20px;
+    
+}
+.values-section{
+    align-items: center;
+    text-align: center;
+}
+.values-title{
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 12px;
+    color: #212529;
+}
+.values-grid{
+    display: grid;
+    gap:2rem;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.value-card{
+    background: white;
+    padding: 2rem 1rem;
+    box-shadow: rgb(0, 0, 0) 0px 10px 13px -7px, 5px 5px 15px 5px rgba(0,0,0,0); ;
+    border-radius: 10px;
+}
+.value-card >h4{ 
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.value-card >p{
+    color: #4a627a;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    font-size: 1 rem;
+    letter-spacing: 2px;
+}
