@@ -1,0 +1,116 @@
+.services-section{
+    padding:5rem 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(135, #f8fafc 100);
+}
+.services-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.services-header{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.services-badge{
+    display: inline-block;
+    background: rgba(30, 111, 159, 0.1) ;
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    margin-bottom: 1rem;
+    color:#4dabf7;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.services-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom:1rem;
+    color: #1971c2;
+
+}
+.services-subtitle{
+    font-size: 1.1rem;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 2px;
+
+}
+.services-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px, 1fr));
+    gap:2rem;
+}
+.service-card{
+    background:  rgba(255, 255, 255, 0.8) ;;
+    border-radius: 28px;
+    padding:2rem 1.5rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+
+.service-card :hover{
+    transform: translateY(-8px);
+    background: white;
+    border-color: #a5d8ff;
+}
+
+.service-icon{
+    font-size: 3rem;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.service-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #212529;
+}
+
+.service-description{     
+    font-size: 1.1rem;
+    color: #212529;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-bottom: 1.2rem;
+}
+
+.service-features{
+    list-style: none;
+    padding: 0;
+}
+
+.service-features >li{
+    color: #2c4c6e;
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    align-items: center;
+    gap: 0.5rem;
+    display: flex;
+}
+
+.service-features li::before{
+    content: "✓";
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.service-btn{
+    padding: 12px;
+    margin-top: 10px;
+    width: 150px;
+    background-color: #1971c2;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.service-btn:hover{
+    background-color: #1971c2;
+    color: #ffffff;
+}
