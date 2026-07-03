@@ -8,7 +8,7 @@ function Signup() {
     <div className='signup-page'>
         <div className='signup-card'>
             <div className='signup-header'>
-                <span className='signup-brand'>Stratcom</span>
+                <span className='signup-brand'><a href='/'>Stratcom</a></span>
                 <p>Create Account</p>
             </div>
             <form className='signup-form' action="">
