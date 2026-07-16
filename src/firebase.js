@@ -1,7 +1,6 @@
-import { initializeApp } from "firebase/app";
-import { getAuth,signInWithEmailAndPassword,createUserWithEmailAndPassword,signOut,updateProfile, } from "firebase/auth";
-import { getFirestore,collection,addDoc,getDocs,updateDoc,deleteDoc,doc,onSnapshot,query,orderBy } from "firebase/firestore";
-
+import {initializeApp} from 'firebase/app'
+import {getAuth,signInWithEmailAndPassword,createUserWithEmailAndPassword,signOut,updateProfile} from 'firebase/auth'
+import {collection,addDoc,getDocs,updateDoc,deleteDoc,doc,onSnapshot,query,orderBy,getFirestore} from 'firebase/firestore'
 
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -16,9 +15,9 @@ const firebaseConfig = {
 };
 
 //initializing firebase app 
-const app=initializeApp(firebaseConfig)
-const auth=getAuth(app)
-const db=getFirestore(app)
+  const app = initializeApp(firebaseConfig)
+  const auth = getAuth(app)
+  const db = getFirestore(app)
 
 
-export{auth,db,signInWithEmailAndPassword,signOut,createUserWithEmailAndPassword,updateProfile,updateDoc,collection,addDoc,getDocs,deleteDoc,doc,onSnapshot,query,orderBy}
+export{auth,db,addDoc,signInWithEmailAndPassword,createUserWithEmailAndPassword,updateProfile,updateDoc,collection,deleteDoc,onSnapshot,query,orderBy,doc,getDocs,getFirestore,signOut};
